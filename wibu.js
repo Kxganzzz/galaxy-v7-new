@@ -284,11 +284,11 @@ try {
                 api: 'Error'
 			},
 			only: {
-				group: 'Only for within the group!',
-				ownerG: 'Only for group owners!',
-				ownerB: 'Only for bot owners!',
-				admin: 'Only for group admins!',
-				Badmin: 'Make the bot a group admin!'
+				group: 'Khusus di grup bro!',
+				ownerG: 'lah lu owner?',
+				ownerB: 'emang lu owner bng?',
+				admin: 'lu bukan admin bang!',
+				Badmin: 'botnya bukan admin!'
 			}
 		}
 		const botNumber = wibu.user.jid
@@ -626,7 +626,7 @@ options
 };
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
+const daftar2 = '```Klik Tombol Di Bawah Untuk Verify Kak```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
 
 const createSerial = (size) => {
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Kxyudi* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1140,7 +1140,7 @@ stod = `${sender}`
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Kxyudi* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1161,7 +1161,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 
 ┌❏ TO DAY
 │ ${tampilUcapan}
-🏴‍☠️ Jam : ${jmn}
+🏴‍☠️ Jam : ${timeWib}
 🏴‍☠️ Hari : ${week} ${weton}
 🏴‍☠️ Tanggal : ${calender}
 └❏
@@ -1503,7 +1503,7 @@ mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© wibu_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© yudi_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -2880,7 +2880,7 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     :* ${ovo}
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : *SCAN DI ATAS AJA*
+*│*⬡ *GOPAY    : *{gopay}*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 wibu.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
@@ -5208,7 +5208,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©kxyudi_*',
     buttons: punten,
     headerType: 1
 }
@@ -5429,6 +5429,10 @@ Giliran = @${tty.player1.split('@')[0]}`
 
 /**
 * Thx To:
+* @gsatt
+* @Aditzz
+* @Dimsss
+* @Kxyudi
 * @Dilaa
 * @Anker Production
 * @Yoga Ganez
