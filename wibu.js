@@ -1092,7 +1092,7 @@ wibu.sendMessage(from, btnmenu, MessageType.buttonsMessage, {contextInfo :{text:
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-"title": `hallo ${pushname}` ,
+"title": `hallo kak ${pushname}` ,
 "body": `${jmn} - ${week} ${weton} - ${calender}`,
 "mediaType": "2",
 "thumbnail": pporigi,
@@ -1128,14 +1128,14 @@ else if(menusimpel = true){
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`${NamaBot}\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© W A I F U_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_©yudi_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await wibu.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ W A I F U 🏴‍☠️'
+       nama = '🏴‍☠️ yudi ajg 🏴‍☠️'
        ownerJid = "62881037046507@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
@@ -1161,7 +1161,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 
 ┌❏ TO DAY
 │ ${tampilUcapan}
-🏴‍☠️ Jam : ${timeWib}
+🏴‍☠️ Jam : ${timeWita}
 🏴‍☠️ Hari : ${week} ${weton}
 🏴‍☠️ Tanggal : ${calender}
 └❏
